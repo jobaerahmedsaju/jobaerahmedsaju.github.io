@@ -109,8 +109,17 @@ img { max-width: 100%; display: block; }
   font-family: Georgia, "Times New Roman", serif;
   letter-spacing: -.02em;
 }
-.hero h1 { margin: 13px 0 18px; font-size: clamp(2.7rem, 5vw, 5.2rem); line-height: .99; font-weight: 700; }
-.hero h1 .accent { color: var(--accent); }
+.hero h1 {
+  margin: 13px 0 18px;
+  font-size: clamp(2.7rem, 5vw, 5.2rem);
+  line-height: .99;
+  font-weight: 700;
+  color: #214E3B;
+}
+
+.hero h1 .accent {
+  color: #5F8A68;
+}
 .hero h1 .blue { color: var(--accent-2); }
 .hero-copy p { color: #263d56; font-size: 1rem; max-width: 660px; }
 .hero-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
