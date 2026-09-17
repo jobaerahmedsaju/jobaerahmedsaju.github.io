@@ -258,3 +258,10 @@ img { max-width: 100%; display: block; }
   .section { padding: 68px 0; }
   .footer-wrap { flex-direction: column; align-items: flex-start; }
 }
+.hero-copy h1 {
+  color: #214E3B !important;
+}
+
+.hero-copy h1 .accent {
+  color: #6F9E72 !important;
+}
